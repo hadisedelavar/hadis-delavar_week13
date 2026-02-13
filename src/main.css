@@ -1,45 +1,5 @@
+@import "tailwindcss";
+
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-main{
-    width: 80%;
-    margin: 0 auto;
-}
-
-header{
-    width: 100vw;
-    box-shadow: 0 5px 15px -1px #eee;
-    padding: 20px;
-    text-align: center;
-}
-
-ul{
-    border-bottom: 1px solid #cecece;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    font-size: 1.3rem;
-    transition: all ease-in-out .3s;
-    border-bottom: 3px solid transparent;
-    padding: 30px 30px 2px 30px;
-}
-
-.active{
-    border-bottom: 3px solid #ffa702;
-}
-
-ul li:hover{
-    cursor: pointer;
-    border-bottom: 3px solid #ffa702;
-}
-
-article{
-    padding: 30px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
